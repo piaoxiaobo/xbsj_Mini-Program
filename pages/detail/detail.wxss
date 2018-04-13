@@ -1,0 +1,52 @@
+.detailContent{
+  display: flex;
+  flex-direction: column;
+}
+.detail_Header image{
+  width: 100%;
+  height: 400rpx;
+  margin-bottom: 0rpx;
+}
+.detail_avatar_date image{
+  width: 60rpx;
+  height: 60rpx;
+  margin: 10rpx; 
+  vertical-align: middle;
+}
+.detail_avatar_date text{
+ font-size: 30rpx;
+  margin-left: 20rpx;
+  font-weight: 300;
+  color: #666666;
+  vertical-align: middle;
+}
+.detail_coll_share_c{
+  position: relative;
+}
+.detail_coll_share{
+  float: right;
+  margin-right: 10rpx; 
+}
+.detail_coll_share image{
+  width: 90rpx;
+  height: 90rpx;
+  margin-left: 10rpx; 
+}
+.line{
+  width:90%;
+  height:1px;
+  background: black;
+  position: absolute;
+  top:45rpx;
+  left:5%;
+  z-index:-99;
+}
+.detail_content{
+   font-size: 28rpx;
+  color: #666;
+  vertical-align: middle;
+  margin-right: 20px;
+  text-indent: 30rpx;
+  margin-top: 30rpx;
+}
+
