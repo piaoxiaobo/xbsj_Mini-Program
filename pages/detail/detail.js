@@ -6,7 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    isCollected:false
   },
 
   /**
@@ -19,7 +19,42 @@ Page({
     this.setData({
       detailObj,index
     })
+
+    let collectionFlag = wx.getStorageSync('isCollected');
+    if(!collectionFlag){
+        collectionFlag = {}
+        wx.setStorage({
+          key: 'isCollected',
+          data: collectionFlag
+        })
+    }else{
+      let isCollected = collectionFlag[index]
+
+      isCollected=isCollected?true:false;
+      this.setData({isCollected})
+    }
    
+  },
+  handleCollection(){
+    let isCollected = !this.data.isCollected;
+    // 修改状态值
+    this.setData({ isCollected });
+
+    let title=isCollected?'收藏成功':'取消收藏'
+    wx.showToast({
+      title,
+      icon: 'success',
+      duration: 2000
+    })
+
+    let collectionFlag = wx.getStorageSync('isCollected')
+   
+    let {index} = this.data;
+    collectionFlag[index] = isCollected;
+    wx.setStorage({
+      key: 'isCollected',
+      data: collectionFlag
+    })
   },
 
   /**
