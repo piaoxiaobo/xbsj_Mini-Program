@@ -1,0 +1,33 @@
+/* pages/about/about.wxss */
+.about_wrap{
+  width: 300px;
+  height: 400px;
+  margin: 40px auto;
+}
+.logo_wrap{
+  text-align: center
+  
+}
+.imglogo{
+  width: 180px;
+  height: 180px;
+  margin: 0 auto
+}
+.about_content{
+  margin: 10px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px
+}
+.about_name{
+  width: 100%;
+  font-size: 14px;
+  text-align: right;
+}
+.name_text{
+  margin-right: 20px
+}
+.about_footer{
+  display: flex;
+  flex-direction: column;
+}

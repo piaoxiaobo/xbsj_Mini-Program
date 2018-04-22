@@ -19,7 +19,7 @@
   vertical-align: middle;
 }
 .tmp_title {
-  margin-left:10rpx;
+  margin:5px;
   font-size: 34rpx;
   font-weight: bold;
   color: #333;
@@ -29,7 +29,6 @@
 .tmp_img {
   width:100%;
   height:340rpx;
-  margin-bottom: 15px;
 }
 .tmp_content{
   font-size: 28rpx;
@@ -51,4 +50,7 @@
   color: #666;
   vertical-align: middle;
   margin-right: 10px;
+}
+.content_box{
+  margin: 5px 10px 10px 10px;
 }

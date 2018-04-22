@@ -2,7 +2,10 @@
 <view class='container'>
 	<image class='avatar' src='{{user.avatarUrl}}'></image>
 	<text class='userName'>Hello {{user.nickName}}</text>
-	<view class='goStudy' bindtap="gotolist">
+	<view class='goHome' bindtap="gotolist">
 		<text >{{msg}}</text>
 	</view>
+  <view>
+   <text class='notice'>{{notice}}</text>
+  </view>
 </view>

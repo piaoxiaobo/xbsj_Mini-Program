@@ -18,15 +18,19 @@
 	font-weight: bold;
 }
 
-.goStudy {
+.goHome {
 	width: 200rpx;
 	height:80rpx;
 	margin-top: 200rpx;
-	border: 1px solid #405f80;
+	border: 1px solid black;
 	font-size: 22rpx;
 	text-align: center;
 	line-height: 80rpx;
-	color: #405f80;
+	color: black;
 	border-radius: 10rpx;
+}
+.notice{
+  font-size: 10px;
+  margin: 5px
 }
 

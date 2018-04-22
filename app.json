@@ -1,13 +1,39 @@
 {
   "pages": [
-    "pages/list/list",
     "pages/index/index",
+    "pages/list/list",
+    "pages/daily/daily",
+    "pages/about/about",
     "pages/detail/detail"
+
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "小泊随記",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#4AAEE3",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "文章列表",
+        "iconPath": "/images/icon/mark.png",
+        "selectedIconPath": "/images/icon/markHL.png"
+      },
+      {
+        "pagePath": "pages/daily/daily",
+        "text": "小泊碎语",
+        "iconPath": "/images/icon/yuedu.png",
+        "selectedIconPath": "/images/icon/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于小泊",
+        "iconPath": "/images/icon/strategy.png",
+        "selectedIconPath": "/images/icon/strategyHL.png"
+      }
+    ]
   }
 }

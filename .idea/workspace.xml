@@ -3,6 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="d70f39aa-bf42-477c-9791-cccd871f2afd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
+      <change beforePath="$PROJECT_DIR$/images/avatar/0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatar/1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatar/2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatar/3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatar/4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatar/5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatar/6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/detail/carousel/01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/detail/carousel/02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/detail/carousel/03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/detail/carousel/04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/detail/list/01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/detail/list/02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/detail/list/03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/detail/list/04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.js" afterPath="$PROJECT_DIR$/pages/detail/detail.js" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.json" afterPath="$PROJECT_DIR$/pages/detail/detail.json" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.wxml" afterPath="$PROJECT_DIR$/pages/detail/detail.wxml" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.wxss" afterPath="$PROJECT_DIR$/pages/detail/detail.wxss" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.js" afterPath="$PROJECT_DIR$/pages/index/index.js" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" afterPath="$PROJECT_DIR$/pages/index/index.wxml" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" afterPath="$PROJECT_DIR$/pages/index/index.wxss" />
+      <change beforePath="$PROJECT_DIR$/pages/list/list.js" afterPath="$PROJECT_DIR$/pages/list/list.js" />
+      <change beforePath="$PROJECT_DIR$/pages/list/list.wxml" afterPath="$PROJECT_DIR$/pages/list/list.wxml" />
+      <change beforePath="$PROJECT_DIR$/templates/template-list.wxml" afterPath="$PROJECT_DIR$/templates/template-list.wxml" />
+      <change beforePath="$PROJECT_DIR$/templates/template-list.wxss" afterPath="$PROJECT_DIR$/templates/template-list.wxss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,35 +43,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="detail.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/detail/detail.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list-data.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/datas/list-data.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="131" column="59" lean-forward="false" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package_json" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>detail_content: '硅谷IT教育隶属于北京晟程华科教育科技有限公司，是国内领先的专业IT教育培训机构，拥有北京、深圳两处基地。自2013年成立以来，凭借领先的教育理念、前沿的课程体系、优秀的教学团队、科学的考评制度、严格的教务管理、完备的就业保障，已经为行业输送了万余名高端技术人才。'</find>
+      <find>'</find>
     </findStrings>
     <replaceStrings>
       <replace>detail_content:'111'</replace>
+      <replace>&quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -54,7 +70,9 @@
       <list>
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/pages/detail/detail.wxml" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/datas/list-data.js" />
+        <option value="$PROJECT_DIR$/demo.json" />
       </list>
     </option>
   </component>
@@ -64,11 +82,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="722" />
     <option name="y" value="292" />
     <option name="width" value="1372" />
     <option name="height" value="553" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -96,50 +117,7 @@
             <path>
               <item name="微信小程序" type="b2602c69:ProjectViewProjectNode" />
               <item name="微信小程序" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="微信小程序" type="b2602c69:ProjectViewProjectNode" />
-              <item name="微信小程序" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="avatar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="微信小程序" type="b2602c69:ProjectViewProjectNode" />
-              <item name="微信小程序" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="微信小程序" type="b2602c69:ProjectViewProjectNode" />
-              <item name="微信小程序" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
-              <item name="carousel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="微信小程序" type="b2602c69:ProjectViewProjectNode" />
-              <item name="微信小程序" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="微信小程序" type="b2602c69:ProjectViewProjectNode" />
-              <item name="微信小程序" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="icon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="微信小程序" type="b2602c69:ProjectViewProjectNode" />
-              <item name="微信小程序" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="微信小程序" type="b2602c69:ProjectViewProjectNode" />
-              <item name="微信小程序" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,16 +160,18 @@
       <updated>1523613297926</updated>
       <workItem from="1523613299368" duration="2713000" />
       <workItem from="1523619605588" duration="6000" />
+      <workItem from="1524371631843" duration="3812000" />
+      <workItem from="1524398418805" duration="141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2719000" />
+    <option name="totallyTimeSpent" value="6672000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06437768" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17167382" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -246,7 +226,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/list-data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3406">
+          <caret line="131" column="59" lean-forward="false" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/detail/detail.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -254,7 +247,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3406">
           <caret line="131" column="59" lean-forward="true" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -300,32 +292,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/detail/list/01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/detail/list/01.jpg" />
     <entry file="file://$PROJECT_DIR$/images/icon/chat.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/detail/detail.wxml">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datas/list-data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="131" column="59" lean-forward="false" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
-          <folding />
+        <state relative-caret-position="208">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/detail/detail.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.json" />
   </component>
   <component name="masterDetails">
     <states>

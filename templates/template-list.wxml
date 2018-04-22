@@ -3,17 +3,14 @@
     <view class='tmp_avatar_date'>
     <image  src='{{avatar}}'></image>
     <text>{{date}}</text>
+    <text class='tmp_title'>小泊随記</text>
     </view>
     <view>
-     <text class='tmp_title'>小泊随記</text>
     <image class='tmp_img' src='{{detail_img}}'></image>
-    <text class='tmp_content'>{{detail_content}}</text>
+    <view class='content_box'>
+        <text class='tmp_content'>{{detail_content}}</text>
     </view>
-    <view class="tmp_love_attention">
-    <image src='{{detail_love_image1}}'></image>
-    <text>{{love_count}}</text>
-    <image src='{{detail_love_image2}}'></image>
-    <text>{{attention_count}}</text>
     </view>
+   
   </view>
 </template>

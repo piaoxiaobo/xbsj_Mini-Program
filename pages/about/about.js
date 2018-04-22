@@ -1,41 +1,26 @@
-// pages/index/index.js
-const API_URL = 'https://www.itsolotime.com/images/wxapp/main.json';
+// pages/about/about.js
+const API_URL = 'https://www.itsolotime.com/images/wxapp/about.json';
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    msg:'访问小泊随記',
-    notcie:''
+    about:{}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.getUserInfo({
-      //withCredentials: true,
+    wx.request({
+      url: API_URL,
       success: (res) => {
-        let user = res.userInfo;
         this.setData({
-          user
+          about:res.data 
         })
       }
-    }),
-      wx.request({
-        url: API_URL,
-        success: (res) => {
-          this.setData({
-            notice:res.data[0].notice
-          })
-        }
-      })	
-  },
-  gotolist(){
-    wx.switchTab({
-      url: '/pages/list/list'
-    })
+    })	
   },
 
   /**

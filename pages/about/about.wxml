@@ -1,0 +1,15 @@
+<!--pages/about/about.wxml-->
+<view class='about_wrap'>
+<view class='logo_wrap'>
+  <image class='imglogo' src='{{about.imgurl}}'></image>
+</view>
+<view class='about_content'>
+<text>{{about.desc}}</text>
+</view>
+<view class='about_name'>
+<text class='name_text'>{{about.name}}</text>
+</view>
+<view class='about_footer'>
+</view>
+</view>
+
