@@ -17,6 +17,7 @@ Page({
     wx.request({
       url: API_URL,
       success: (res) => {
+        console.log(res.data)
         this.setData({
           list: res.data
         })
