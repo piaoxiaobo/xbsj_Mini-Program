@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d70f39aa-bf42-477c-9791-cccd871f2afd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
-      <change beforePath="$PROJECT_DIR$/images/avatar/0.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/avatar/1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/avatar/2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/avatar/3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/avatar/4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/avatar/5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/avatar/6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/detail/carousel/01.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/detail/carousel/02.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/detail/carousel/03.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/detail/carousel/04.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/detail/list/01.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/detail/list/02.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/detail/list/03.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/detail/list/04.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pages/detail/detail.js" afterPath="$PROJECT_DIR$/pages/detail/detail.js" />
-      <change beforePath="$PROJECT_DIR$/pages/detail/detail.json" afterPath="$PROJECT_DIR$/pages/detail/detail.json" />
-      <change beforePath="$PROJECT_DIR$/pages/detail/detail.wxml" afterPath="$PROJECT_DIR$/pages/detail/detail.wxml" />
-      <change beforePath="$PROJECT_DIR$/pages/detail/detail.wxss" afterPath="$PROJECT_DIR$/pages/detail/detail.wxss" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.js" afterPath="$PROJECT_DIR$/pages/index/index.js" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" afterPath="$PROJECT_DIR$/pages/index/index.wxml" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" afterPath="$PROJECT_DIR$/pages/index/index.wxss" />
-      <change beforePath="$PROJECT_DIR$/pages/list/list.js" afterPath="$PROJECT_DIR$/pages/list/list.js" />
-      <change beforePath="$PROJECT_DIR$/pages/list/list.wxml" afterPath="$PROJECT_DIR$/pages/list/list.wxml" />
-      <change beforePath="$PROJECT_DIR$/templates/template-list.wxml" afterPath="$PROJECT_DIR$/templates/template-list.wxml" />
-      <change beforePath="$PROJECT_DIR$/templates/template-list.wxss" afterPath="$PROJECT_DIR$/templates/template-list.wxss" />
-    </list>
+    <list default="true" id="d70f39aa-bf42-477c-9791-cccd871f2afd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -82,7 +52,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="722" />
     <option name="y" value="292" />
     <option name="width" value="1372" />
@@ -161,15 +131,15 @@
       <workItem from="1523613299368" duration="2713000" />
       <workItem from="1523619605588" duration="6000" />
       <workItem from="1524371631843" duration="3812000" />
-      <workItem from="1524398418805" duration="141000" />
+      <workItem from="1524398418805" duration="603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6672000" />
+    <option name="totallyTimeSpent" value="7134000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17167382" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
